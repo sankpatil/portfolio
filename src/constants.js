@@ -55,7 +55,7 @@ import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import Online_BookStore from './assets/work_logo/Online_BookStore.png';
-import Jarvis from './assets/work_logo/jarvis.png';
+import ai from './assets/work_logo/ai.png';
 
 // Office Icons
 const excelIcon = 'https://img.icons8.com/color/96/000000/microsoft-excel-2019--v1.png';
@@ -377,7 +377,7 @@ export const SkillsInfo = [
       title: "Jarvis AI Voice Assistant (Python)",
       description:
         "A Python-based voice assistant inspired by Jarvis from Iron Man. It can recognize voice commands, speak responses, tell the date/time, search Wikipedia, open websites, play music, fetch weather updates, crack jokes, and respond to greetings. This project helped in exploring speech recognition, TTS, APIs, and Python automation.",
-      image: Jarvis, // Replace with your assistant logo or Jarvis-styled image
+      image: ai, // Replace with your assistant logo or Jarvis-styled image
       tags: ["Python", "SpeechRecognition", "Pyttsx3", "APIs", "Automation"],
       github: "https://github.com/sanket2350/jarvis-ai", // Replace with your actual GitHub link
       webapp: "", // Leave blank or use a YouTube demo/video link if available
