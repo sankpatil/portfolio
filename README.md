@@ -26,8 +26,9 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 ### 1. Clone the Repo
 
 ```bash
-git clone [https://portfolio-beige-three-91.vercel.app/]
-cd your-repo-name
+git clone https://github.com/sankpatil/portfolio.git
+cd portfolio
+
 ````
 
 ### 2. Install Dependencies
