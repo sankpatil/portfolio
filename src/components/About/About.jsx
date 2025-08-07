@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/Sanky_patil.png';
+//import profileImage from '../../assets/Sanky_patil.png';
+import profileImage from '../../assets/ssp.png'; 
 
 const About = () => {
   return (
@@ -61,24 +62,41 @@ const About = () => {
           </a>
         </div>
         {/* Right Side */}
-        <div className="md:w-1/2 flex justify-center md:justify-end">
-          <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
-            perspective={1000}
-            scale={1.08}
-            transitionSpeed={1000}
-            gyroscope={true}
-          >
-            <img
-              src={profileImage}
-              alt="Sanket Patil"
-              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]"
-             
-            />
-          </Tilt>
-        </div>
+
+
+
+        <div className="md:w-1/2 flex justify-center md:justify-end relative">
+  <Tilt
+    className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] rounded-full overflow-visible relative z-10"
+    tiltMaxAngleX={20}
+    tiltMaxAngleY={20}
+    perspective={1000}
+    scale={1.08}
+    transitionSpeed={1000}
+    gyroscope={true}
+  >
+    <div className="absolute -top-2 -right-4 w-[110%] h-[110%] rounded-full overflow-hidden border-b-4 border-purple-700">
+      <img
+        src={profileImage}
+        alt="Sanket Patil"
+        className="w-full h-full object-cover rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.4)]"
+      />
+    </div>
+  </Tilt>
+</div> 
+
+{/* 
+        <div className="md:w-1/2 flex justify-center md:justify-end"> 
+        <Tilt className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
+         tiltMaxAngleX={20} tiltMaxAngleY={20} perspective={1000} scale={1.08} transitionSpeed={1000} gyroscope={true} >
+           <img src={profileImage} 
+           alt="Sanket Patil" 
+           className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]" /> 
+           </Tilt>
+           </div> */}
+
+
+
       </div>
     </section>
   );
